@@ -1,0 +1,14 @@
+{
+  "name": "sveltekit-jxjqrj",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "WITH_MULTI_REMOTES=1 NODE_ENV=development npx lerna run dev --parallel"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
